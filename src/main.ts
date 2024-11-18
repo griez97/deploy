@@ -74,3 +74,5 @@ async function fetrchResidents(locationResidents: string[]): Promise<string> {
 function sayHi() {
     console.log("Hello hello");
 }
+
+sayHi();

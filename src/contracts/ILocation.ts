@@ -1,6 +1,6 @@
 export interface ILocation {
     info: Info;
-    results: Result[];
+    results: ILocationResult[];
 }
 
 export interface Info {
@@ -10,7 +10,7 @@ export interface Info {
     prev: null;
 }
 
-export interface Result {
+export interface ILocationResult {
     id: number;
     name: string;
     type: string;

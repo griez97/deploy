@@ -1,6 +1,6 @@
 export interface ICharacters {
     info: Info;
-    results: Result[];
+    results: ICharacterResult[];
 }
 
 export interface Info {
